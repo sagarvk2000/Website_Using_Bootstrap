@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>E-commerce</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="Menu.css" rel="stylesheet" />
+    <style>
+        body{
+            background-color:#f6f1f1
+        }
+        .abu{   
+            position:relative;
+            margin-top:100px;
+            padding-left:4%;
+        }
+        /*for laptop*/
+        h1 {
+            font-size: 70px;
+        }
+
+        p {
+            text-align: centre;
+        }
+
+        /*for tab*/
+        @media screen and (min-width:700px) and (max-width:1024px) {
+            h1 {
+                font-size: 40px;
+            }
+
+            #footer {
+                position: relative;
+                top: 100px;
+                background: lightgrey;
+                height: 480px;
+            }
+        }
+
+        /*for mobile*/
+        @media screen and (min-width:320px) and (max-width:680px) {
+            h1 {
+                font-size: 18px;
+            }
+
+            p {
+                text-align: left;
+            }
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="ecommerce.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <!--<li class="nav-item">
+                        <a class="nav-link" href="Menu.html">Product List</a>
+                    </li>-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="im.avif" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="im.webp" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <section class="abu">
+        <div class="col-md-11">
+            <h3>Mykart Private Limited</h3>
+            <p id="info">
+                Mykart Private Limited is an Indian e-commerce company,
+                headquartered in Bangalore, and incorporated in Singapore as a private limited company.
+                The company initially focused on online book sales before expanding into other product
+                categories such as consumer electronics, fashion, home essentials, groceries, and lifestyle
+                products.
+            </p>
+        </div>
+    </section>
+    <section id="footer">
+        <footer class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <h4>Company Information</h4>
+                </div>
+                <div class="col-md-3">
+                    <h4>Quick links</h4>
+                    <ul>
+                        <li>
+                            <a href="ecommerce.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="service.html">Services</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Privacy</h5>
+                    &copy; 2023 Your Website. All rights reserved.
+                </div>
+                <div class="col-md-3">
+                    <h5>Contact us</h5>
+                    <ul>
+                        <li><a href="www.facebook.com" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i>Facebook</a></li>
+                        <li><a href="www.twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i>twitter</a></li>
+                        <li><a href="www.whatsapp.com" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i>Whatsapp</a></li>
+                        <li><a href="www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
+</body>
+</html>

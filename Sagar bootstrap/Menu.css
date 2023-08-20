@@ -1,0 +1,101 @@
+﻿.navbar {
+    background-color: #808080;
+}
+
+a.nav-link {
+    color: aqua;
+}
+
+.nav-item {
+    box-sizing: content-box;
+}
+
+#carouselExampleIndicators{
+    position:relative;
+    top:60px;
+}
+.carousel-inner{
+    height:500px;
+}
+#productlist{
+    position:relative;
+    top:80px;
+}
+.card{
+    margin-bottom:10px;
+}
+#footer{
+    position:relative;
+    top:100px;
+    background:lightgrey;
+    height:300px;
+}
+#footer ul{
+    list-style:none;
+}
+footer ul li{
+    font-weight:300;
+    font-size:18px;
+}
+#footer ul li a{
+    text-decoration:none;
+}
+#footer ul li a:hover{
+    text-decoration:underline;
+}
+#footer .row{
+    position:relative;
+    top:30px;
+}
+.fa-facebook-official {
+    color: darkblue;
+}
+.fa-twitter{
+    color:blue;
+}
+.fa-whatsapp{
+    color:green;
+}
+.fa-instagram{
+    color:#a0b038
+}
+/*for laptop*/
+h1 {
+    font-size: 70px;
+}
+p {
+    text-align: centre;
+}
+
+/*for tab*/
+@media screen and (min-width:700px) and (max-width:1024px) {
+    h1 {
+        font-size: 40px;
+    }
+    #footer {
+        position: relative;
+        top: 100px;
+        background: lightgrey;
+        height: 480px;
+    }
+    
+}
+
+/*for mobile*/
+@media screen and (min-width:320px) and (max-width:680px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    p {
+        text-align: left;
+    }
+    #footer {
+        position: relative;
+        top: 100px;
+        background: lightgrey;
+        height: 520px;
+    }
+}
+
+
